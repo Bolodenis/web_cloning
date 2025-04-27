@@ -348,6 +348,11 @@ footer p i:hover {
         left: -5px;
     }
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 
 @media screen and (max-width: 480px) {
     .image-row {
