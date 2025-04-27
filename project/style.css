@@ -320,10 +320,25 @@ footer p i:hover {
 }
 
 
-/* Mobile-specific styles */
+/* Flexbox for image rows */
+.image-row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures images wrap onto new lines */
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center the images */
+}
+
+.image {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as per your design */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+}
+
+/* Mobile-specific styling */
 @media screen and (max-width: 768px) {
     .image-row {
-        justify-content: space-around;
+        justify-content: center; /* Center the images */
     }
 
     .image {
@@ -333,11 +348,11 @@ footer p i:hover {
 
 @media screen and (max-width: 480px) {
     .image-row {
-        justify-content: center;
+        justify-content: center; /* Center the images */
     }
 
     .image {
-        max-width: 90%; /* 1 image per row */
+        max-width: 90%; /* 1 image per row on smaller screens */
     }
 
     #icons {
@@ -350,7 +365,7 @@ footer p i:hover {
     }
 }
 
-/* Styling for icons container */
+/* Icons styling */
 #icons {
     display: flex;
     justify-content: space-evenly;
@@ -362,4 +377,3 @@ footer p i:hover {
     max-width: 120px;
     height: auto;
 }
-
