@@ -339,20 +339,25 @@ footer p i:hover {
 @media screen and (max-width: 768px) {
     .image-row {
         justify-content: center; /* Center the images */
+        left: -5px;
+       
     }
 
     .image {
-        max-width: 48%; /* 2 images per row */
+        max-width: 45%; /* 2 images per row */
+        left: -5px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .image-row {
         justify-content: center; /* Center the images */
+        left: -5px;
     }
 
     .image {
-        max-width: 90%; /* 1 image per row on smaller screens */
+        max-width: 80%; /* 1 image per row on smaller screens */
+        left: -5px;
     }
 
     #icons {
