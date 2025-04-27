@@ -14,6 +14,9 @@ It includes a sticky navigation bar, about section, services, and featured skill
 - **FontAwesome icons** integration
 - **Bootstrap 5** powered components (navbar, cards, buttons, progress bars)
 
+  ## Demo
+  - Click here to view the demo [here](https://web-cloning.onrender.com/)
+
 ## 🛠️ Technologies Used
 
 - HTML5
