@@ -319,3 +319,71 @@ footer p i:hover {
     }
 }
 
+/* General Styling */
+#Action2 {
+    padding: 20px;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+  }
+  
+  #icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  #icons div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #ims {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .image-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    #icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #icons div {
+      margin-bottom: 20px;
+    }
+  
+    #ims {
+      max-width: 60%; /* Adjust for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #ims {
+      max-width: 50%; /* Further adjustment for smaller screens */
+    }
+  }
+  
+
